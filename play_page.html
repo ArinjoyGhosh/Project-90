@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>
+            Project - 90
+        </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body onload="play_game_load()">
+        <h4 id="player_1"><b></b><span id="player_1_score"></span></h4>
+        <h4 id="player_2"><b></b><span id="player_2_score"></span></h4>
+        <center>
+            <div class="top"></div>
+            <div id="text">
+                <h2><kbd>The Maths Challenge!</kbd></h2>
+                <br>
+                <br>
+                <br>
+                <h3><b>Question: </b><span id="question"></span></h3>
+                <br>
+                <h3><b>Answer: </b><span id="answer"></span></h3>
+            </div>
+            <br>
+            <div id="design">
+                <br>
+                <h4><b>Question: </b><span id="question"></span></h4>
+                <br>
+                <span><b>Answer: </b><input id="answer" type="text" placeholder="Answer Here"></span>
+                <br>
+                <br>
+                <br>
+                <button class="btn btn-info">Check</button>
+            </div>
+            <br>
+            <br>
+            <div id="design_2">
+                <br>
+                <h4><b>Send your Question: </b><input type="text" placeholder="Type Your Question"></h4>
+                <br>
+                <br>
+                <button class="btn btn-info" onclick="questionsent()">Send Question</button>
+            </div>
+        </center>
+    </body>
+</html>

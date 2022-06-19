@@ -1,0 +1,39 @@
+.top {
+    height: 200px;
+    width: 1536px;
+    padding-top: 0px;
+    background-image: url("background.gif");
+    margin-top: -50px;
+}
+
+#user1 {
+    z-index: 99;
+    width: 400px;
+    height: 400px;
+    background-color: lemonchiffon;
+    margin-top: -70px;
+    border-radius: 10px;
+    border: 5px;
+    border-color: grey;
+}
+#text {
+    margin-top: -110px;
+}
+#player_1 {
+    padding-left: 10px;
+}
+#player_2 {
+    padding-left: 10px;
+}
+#design {
+    background-color: orange;
+    width: 500px;
+    height: 170px;
+    padding-bottom: 100px;
+}
+#design_2 {
+    background-color: orange;
+    width: 500px;
+    height: 120px;
+    padding-bottom: 100px;
+}
